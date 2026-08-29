@@ -35,6 +35,5 @@ public class vending_machine {
 
         System.out.println("Paid. Change: " + (total - price));
 
-        scanner.close();
     }
 }
