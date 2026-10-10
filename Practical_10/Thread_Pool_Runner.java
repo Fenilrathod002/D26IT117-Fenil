@@ -9,6 +9,7 @@ public class Thread_Pool_Runner {
         // Create a fixed thread pool with 3 threads
         ExecutorService executor = Executors.newFixedThreadPool(3);
 
+
         // Submit 10 tasks
         for (int i = 1; i <= 10; i++) {
             final int taskId = i;

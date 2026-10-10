@@ -9,6 +9,7 @@ public class Producer_Consumer {
         private final Queue<Integer> buffer = new LinkedList<>();
         private final int capacity = 3;
 
+
         // Add item to buffer
         public synchronized void produce(int item) throws InterruptedException {
             // Wait if buffer is full
