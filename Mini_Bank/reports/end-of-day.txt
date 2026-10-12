@@ -1,0 +1,5 @@
+END-OF-DAY REPORT
+Deposits: 6500
+Withdrawals: 1300
+Malformed lines skipped: 0
+transactions.log size=1333 modified=2026-10-12T16:17:21.6005614Z

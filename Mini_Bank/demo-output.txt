@@ -1,0 +1,42 @@
+=== BankInfo[name=MiniBank, branch=CSPIT Branch] final practical demo ===
+SavingsAccount{number=AC0001, owner=Asha, balance=5000, active=true}, rate=4.0
+CurrentAccount{number=AC0002, owner=Bharat, balance=2000, active=true}, rate=0.0
+FixedDepositAccount{number=AC0003, owner=Chirag, balance=10000, active=true}, rate=7.0
+Savings minimum balance: 1000
+Mobile valid/invalid: true/false
+Parsed command: Command[type=DEPOSIT, accountNumber=AC0001, amount=500]
+Transfer attempt completed.
+Rules agree: true
+Annotation fixture errors: [amount: must be > 0, label: exceeds maximum length 10]
+Try-with-resources is active.
+Demo resource closed.
+deposit-worker-0 started
+deposit-worker-0 finished
+deposit-worker-3 started
+deposit-worker-3 finished
+deposit-worker-4 started
+deposit-worker-4 finished
+deposit-worker-7 started
+deposit-worker-7 finished
+deposit-worker-8 started
+deposit-worker-8 finished
+deposit-worker-1 started
+deposit-worker-1 finished
+deposit-worker-2 started
+deposit-worker-2 finished
+deposit-worker-5 started
+deposit-worker-5 finished
+deposit-worker-6 started
+deposit-worker-6 finished
+deposit-worker-9 started
+deposit-worker-9 finished
+Thread-safe expected/actual: 1000/1000
+Buffer transaction consumed
+Reloaded accounts: 3
+Report: reports\end-of-day.txt
+--- Account Statement ---
+Number: AC0001
+Owner: Asha
+Balance: Rs. 4804
+Status: Active
+

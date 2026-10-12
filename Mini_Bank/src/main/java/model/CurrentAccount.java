@@ -1,0 +1,2 @@
+package model;
+public class CurrentAccount extends Account implements InterestBearing, Premium { private static final long serialVersionUID=1L; private final long overdraftLimit; public CurrentAccount(String owner,long opening,long overdraftLimit){super(owner,opening);if(overdraftLimit<0)throw new IllegalArgumentException("Overdraft cannot be negative");this.overdraftLimit=overdraftLimit;} @Override public double interestRate(){return 0.0;} @Override public boolean canWithdraw(long amount){return amount>0 && balanceUnsafe()-amount>=-overdraftLimit;} }

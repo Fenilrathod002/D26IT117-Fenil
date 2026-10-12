@@ -1,0 +1,8 @@
+Customer ID: CUST101
+Clone has independent immutable address view: true
+Account equality: same=true, different=false
+Account text: SavingsAccount{number=AC0001, owner=Riya, balance=1000, active=true}
+Deposit/withdraw balance: 1150
+Expected checked exception: Withdrawal denied by account policy
+Expected parser error: Expected TYPE ACCOUNT AMOUNT
+Savings yearly interest: 46.0

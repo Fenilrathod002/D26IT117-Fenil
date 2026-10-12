@@ -1,0 +1,7 @@
+BankInfo[name=MiniBank, branch=CSPIT Branch]
+
+1.Open 2.Deposit 3.Withdraw 4.Transfer 5.Working hours 6.Exit
+Choice: Invalid menu number. Please choose 1-6.
+
+1.Open 2.Deposit 3.Withdraw 4.Transfer 5.Working hours 6.Exit
+Choice: Goodbye from MiniBank.
