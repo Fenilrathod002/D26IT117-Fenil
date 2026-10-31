@@ -1,0 +1,3 @@
+INFO Application started
+ERROR Unable to connect to payment service
+INFO Retry scheduled

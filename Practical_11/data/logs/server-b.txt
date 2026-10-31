@@ -1,0 +1,3 @@
+INFO User signed in
+WARN Disk usage is above 80 percent
+ERROR Request timed out
